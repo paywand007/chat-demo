@@ -10,12 +10,9 @@
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
 
-   
-   
- 
     <script>
       (function(d,t) {
-        var BASE_URL="http://10.10.28.37:3000";
+        var BASE_URL="https://chat-testoc.netlify.app/";
         var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
         g.src=BASE_URL+"/packs/js/sdk.js";
         g.defer = true;
@@ -23,11 +20,12 @@
         s.parentNode.insertBefore(g,s);
         g.onload=function(){
           window.chatwootSDK.run({
-            websiteToken: 'dxWyxNACz6Wk6xZhyt95LTGF',
+            websiteToken: '3DtsEHLq2kagb6sGM89XdMct',
             baseUrl: BASE_URL
           })
         }
       })(document,"script");
-    </script>
+    </script> 
+  
   </body>
 </html>
